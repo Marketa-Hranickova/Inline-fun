@@ -7,7 +7,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-    <div className="flex flex-row justify-around pt-[25px] h-[10vh]   sticky top-0 z-50 ">
+    <div className="flex flex-row justify-around pt-[25px] h-[10vh]  sticky top-0 z-50 ">
         <div>
             <Link href="./"><img className="w-[60px]" src="./logo.png" alt="logo" /></Link>
             
