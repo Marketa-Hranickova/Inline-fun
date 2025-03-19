@@ -22,7 +22,7 @@ const page = () => {
     
     <>
     {/* HERO */}
-    <div className='flex flex-row h-[90vh] overflow-y-scroll snap-y snap-mandatory snap-start px-[120px]'>
+    <div className='flex flex-row h-screen overflow-y-scroll snap-y snap-mandatory snap-start px-[120px]'>
       
       <div className='justify-center flex flex-col '>
         <h1 className={`${moiraiOne.className} text-9xl w-[50vw] `}>IN-LINE FUN</h1>
@@ -41,7 +41,8 @@ const page = () => {
 
       {/* ujisteni */}
       <div className="">
-      <div className=" group h-screen grid grid-cols-3 grid-rows-2 gap-[60px] py-[30px] snap-start transition-all duration-200 px-[120px] ease-in">
+      <div className="
+       group h-screen grid grid-cols-3 grid-rows-2 gap-[60px] py-[30px] snap-start transition-all duration-200 px-[120px] ease-in">
 
         <div className="group/card1 hover:bg-[url('/spodnibrusle.jpeg')]  bg-black/[0] bg-center bg-cover rounded-3xl transition-all duration-300 ease-in-out hover:scale-105">
         <div className="rounded-3xl  bg-black/[0.5] h-full hover:bg-black/[0.7] text-center flex flex-col justify-center shdos hover:shadow-3xl shadow-gray-800 "> 
@@ -90,7 +91,7 @@ const page = () => {
 
         {/* TÝM */}
 
-        <div className='h-screen flex flex-row justify-between px-[120px]'>
+        <div className='h-screen flex flex-row justify-between snap-start px-[120px]'>
           <div className=' flex flex-col justify-center '>      
             <h1 className={` ${moiraiOne.className} rounded-3xl mb-[30px] flex flex-col justify-center text-4xl`}>KDO VÁS POVEDE</h1>
             <p className='w-[35vw]'>Jsme skupina mladých lidí, která se seznámila na brněnských in-line  táborech, jež jsme společně dlouhodobě vedli z pozice instruktorů.  Letošním rokem jsme se rozhodli v činnosti pokračovat po vlastní ose.  Bruslení nás nesmírně naplňuje a tuto vášeň bychom chtěli předávat i  nadále. Rádi Vám pomůžeme na Vaší cestě k sebevědomému bruslení.</p>
@@ -104,7 +105,7 @@ const page = () => {
           </div>
 
               {/* Nase akce */}
-        <div id='akce' className='h-screen flex flex-col justify-around px-[120px]'>
+        <div id='akce' className='h-screen flex flex-col justify-around snap-start px-[120px]'>
           
         <div className={` ${moiraiOne.className} rounded-3xl text-center flex flex-col justify-center text-4xl`}> 
           <h1>CO NABÍZÍME</h1>
@@ -134,7 +135,7 @@ const page = () => {
 
           {/* KONTAKT */}
 
-          <section className='h-screen flex flex-col text-center justify-center mx-[30vw]'>
+          <section className='h-screen flex flex-col text-center snap-start justify-center mx-[30vw]'>
           
           
             <h1 className={` ${moiraiOne.className} rounded-3xl text-center  text-4xl`}>MÁTE ZÁJEM ?</h1>
