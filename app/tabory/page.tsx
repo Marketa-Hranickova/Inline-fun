@@ -1,6 +1,7 @@
 import { devIndicatorServerState } from 'next/dist/server/dev/dev-indicator-server-state'
 import React from 'react'
 import Form from "next/form";
+import Image from 'next/image';
 import { Playpen_Sans } from 'next/font/google';
 
 const moiraiOne = Playpen_Sans({
@@ -13,7 +14,7 @@ const Tabory = () => {
     <div className='h-[90vh] flex flex-col text-center justify-center'>
         <div className='flex flex-row text-center justify-center pt-[90px]'>
         <h1 className={` ${moiraiOne.className}  pb-[30px] uppercase text-4xl`}>Letos bohužel tábory nepořádáme </h1>
-        <img className='w-[30px] h-[30px] ml-[15px] mt-[5px]' src="./sad.png" alt="" />
+        <Image className='w-[30px] h-[30px] ml-[15px] mt-[5px]' src="./sad.png" alt="" />
         </div>
     <p>Pokud byste měli zájem příští rok, zadejte svůj email a my vás budeme informovat o následujících akcích</p>
     

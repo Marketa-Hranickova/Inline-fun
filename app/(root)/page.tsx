@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar'
 import React from 'react'
 import { Playpen_Sans } from 'next/font/google';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // Load the Moirai One font
 const moiraiOne = Playpen_Sans({
@@ -32,9 +33,9 @@ const page = () => {
         </a>
       </div > 
       <div>
-        <img className='shadow-lg shadow-gray-800  object-cover absolute w-[280px] h-[280px] mt-[30px] ml-[50px] rounded-3xl z-20' src="./holkazepredu.jpeg" alt="" />
-        <img className='shadow-lg shadow-gray-800  object-cover absolute w-[250px] h-[250px] mt-[250px] ml-[250px] rounded-3xl z-10' src="./deckavylet.jpeg" alt="" />
-        <img className='shadow-lg shadow-gray-800 object-cover absolute w-[300px] h-[300px] mt-[330px] ml-[-20px] rounded-3xl' src="./skupina.jpeg" alt="" />
+        <Image className='shadow-lg shadow-gray-800  object-cover absolute w-[280px] h-[280px] mt-[30px] ml-[50px] rounded-3xl z-20' src="./holkazepredu.jpeg" alt="" />
+        <Image className='shadow-lg shadow-gray-800  object-cover absolute w-[250px] h-[250px] mt-[250px] ml-[250px] rounded-3xl z-10' src="./deckavylet.jpeg" alt="" />
+        <Image className='shadow-lg shadow-gray-800 object-cover absolute w-[300px] h-[300px] mt-[330px] ml-[-20px] rounded-3xl' src="./skupina.jpeg" alt="" />
         
         </div>
       </div>
@@ -100,7 +101,7 @@ const page = () => {
             </Link>
           </div>
           <div className=' flex flex-col justify-center '>
-          <img className='shadow-lg shadow-gray-800  object-cover rounded-3xl w-[40vw] h-[50vh]' src="./holkazepredu.jpeg" alt="" />
+          <Image className='shadow-lg shadow-gray-800  object-cover rounded-3xl w-[40vw] h-[50vh]' src="./holkazepredu.jpeg" alt="" />
           </div>
           </div>
 
