@@ -1,9 +1,9 @@
 'use client'
 import Link from "next/link";
-import Image from "next/image";
+
 import {  } from 'next/font/google'
 import { useState } from 'react';
-import { gsap } from 'gsap';
+
 
 import React from 'react'
 

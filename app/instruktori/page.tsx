@@ -1,6 +1,6 @@
 import React from 'react'
 import { Playpen_Sans } from 'next/font/google';
-import Image from 'next/image';
+
 const moiraiOne = Playpen_Sans({
   weight: '800', // Moirai One only has a single weight
   subsets: ['latin'], // Specify the subset(s) you need

@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar'
+
 import React from 'react'
 import { Playpen_Sans } from 'next/font/google';
 import Link from 'next/link';
