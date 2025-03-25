@@ -14,7 +14,7 @@ const Tabory = () => {
     <div className='h-[90vh] flex flex-col text-center justify-center'>
         <div className='flex flex-row text-center justify-center pt-[90px]'>
         <h1 className={` ${moiraiOne.className}  pb-[30px] uppercase text-4xl`}>Letos bohužel tábory nepořádáme </h1>
-        <Image className='w-[30px] h-[30px] ml-[15px] mt-[5px]' src="./sad.png" alt="" />
+        <div className=" ml-[15px] bg-[url('/sad.png')] w-[32px] h-[32px] bg-cover mt-[5px]" ></div>
         </div>
     <p>Pokud byste měli zájem příští rok, zadejte svůj email a my vás budeme informovat o následujících akcích</p>
     

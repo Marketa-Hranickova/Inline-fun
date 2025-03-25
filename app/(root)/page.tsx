@@ -33,9 +33,13 @@ const page = () => {
         </a>
       </div > 
       <div>
-        <Image className='shadow-lg shadow-gray-800  object-cover absolute w-[280px] h-[280px] mt-[30px] ml-[50px] rounded-3xl z-20' src="./holkazepredu.jpeg" alt="" />
-        <Image className='shadow-lg shadow-gray-800  object-cover absolute w-[250px] h-[250px] mt-[250px] ml-[250px] rounded-3xl z-10' src="./deckavylet.jpeg" alt="" />
-        <Image className='shadow-lg shadow-gray-800 object-cover absolute w-[300px] h-[300px] mt-[330px] ml-[-20px] rounded-3xl' src="./skupina.jpeg" alt="" />
+        <div 
+        
+         className="shadow-lg shadow-gray-800 w-[280px] h-[280px]  object-cover absolute  bg-[url('/holkazepredu.jpeg')] bg-cover mt-[30px] ml-[50px] rounded-3xl z-20" 
+         ></div>
+        <div  
+         className="shadow-lg shadow-gray-800  w-[250px] h-[250px] object-cover absolute mt-[250px] bg-cover bg-[url('/deckavylet.jpeg')]  ml-[250px] rounded-3xl z-10"></div>
+        <div className="shadow-lg shadow-gray-800 w-[300px] h-[300px] object-cover bg-cover bg-bottom bg-[url('/skupina.jpeg')] absolute mt-[330px] ml-[-20px] rounded-3xl"></div>
         
         </div>
       </div>
@@ -96,12 +100,12 @@ const page = () => {
           <div className=' flex flex-col justify-center '>      
             <h1 className={` ${moiraiOne.className} rounded-3xl mb-[30px] flex flex-col justify-center text-4xl`}>KDO VÁS POVEDE</h1>
             <p className='w-[35vw]'>Jsme skupina mladých lidí, která se seznámila na brněnských in-line  táborech, jež jsme společně dlouhodobě vedli z pozice instruktorů.  Letošním rokem jsme se rozhodli v činnosti pokračovat po vlastní ose.  Bruslení nás nesmírně naplňuje a tuto vášeň bychom chtěli předávat i  nadále. Rádi Vám pomůžeme na Vaší cestě k sebevědomému bruslení.</p>
-            <Link href="/kontakt">
+            <Link href="/instruktori">
                 <button  className='rounded-xl mt-[30px] px-3 py-2 bg-amber-600 w-[8vw] font-bold hover:shadow-2xl hover:scale-105'>NÁŠ TÝM</button>
             </Link>
           </div>
           <div className=' flex flex-col justify-center '>
-          <Image className='shadow-lg shadow-gray-800  object-cover rounded-3xl w-[40vw] h-[50vh]' src="./holkazepredu.jpeg" alt="" />
+          <div  className="shadow-lg shadow-gray-800 w-[40vw] h-[50vh] object-cover rounded-3xl bg-cover  bg-[url('/skupina.jpeg')] " ></div>
           </div>
           </div>
 
@@ -112,25 +116,27 @@ const page = () => {
           <h1>CO NABÍZÍME</h1>
         </div>
         <div className='grid grid-cols-3 grid-rows-1 gap-10 '>
-
+        <Link href="/tabory">
           <div className=" bg-[url('/batika.jpeg')]  bg-black/[0] bg-center bg-cover rounded-3xl transition-all duration-300 ease-in-out   hover:scale-105">
         <div className="rounded-3xl  bg-black/[0.5] h-[60vh] hover:bg-black/[0.7] text-center flex flex-col justify-center shdos hover:shadow-3xl shadow-gray-800 "> 
           <h1 className={`${moiraiOne.className} text-xl`}>PŘÍMĚSTSKÉ TÁBORY</h1>
         </div>
         </div>
-
-        <div className=" bg-[url('/batika.jpeg')]  bg-black/[0] bg-center bg-cover rounded-3xl transition-all duration-300 ease-in-out  hover:scale-105">
-        <div className="rounded-3xl  bg-black/[0.5] h-full hover:bg-black/[0.7] text-center flex flex-col justify-center shdos hover:shadow-3xl shadow-gray-800 "> 
+        </Link>
+        <Link href="/vylety">
+        <div className=" bg-[url('/deckavylet.jpg')]  bg-black/[0] bg-center bg-cover rounded-3xl transition-all duration-300 ease-in-out  hover:scale-105">
+        <div className="rounded-3xl  bg-black/[0.5] h-[60vh] hover:bg-black/[0.7] text-center flex flex-col justify-center shdos hover:shadow-3xl shadow-gray-800 "> 
           <h1 className={`${moiraiOne.className} text-xl`}>VÝLETY</h1>
         </div>
-        </div>
-
-        <div className=" bg-[url('/batika.jpeg')]  bg-black/[0] bg-center bg-cover rounded-3xl transition-all duration-300 ease-in-out  hover:scale-105">
-        <div className="rounded-3xl  bg-black/[0.5] h-full hover:bg-black/[0.7] text-center flex flex-col justify-center shdos hover:shadow-3xl shadow-gray-800 "> 
+            </div>
+            </Link>
+            <Link href="/soukromelekce">
+        <div className=" bg-[url('/soukrome.jpeg')]  bg-black/[0] bg-center bg-cover rounded-3xl transition-all duration-300 ease-in-out  hover:scale-105">
+        <div className="rounded-3xl  bg-black/[0.5] h-[60vh] hover:bg-black/[0.7] text-center flex flex-col justify-center shdos hover:shadow-3xl shadow-gray-800 "> 
           <h1 className={`${moiraiOne.className} text-xl`}>SOUKROMÉ LEKCE</h1>
         </div>
         </div>
-            
+        </Link>
         </div>
         </div>
 

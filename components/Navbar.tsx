@@ -19,8 +19,8 @@ const Navbar = () => {
     <div className="flex flex-col justify-between gap-10 text-center h-[50vh] mt-[120px] uppercase font-bold">
     <Link href="/" onClick={() => setPosition(!position)}>Domů</Link>
         <Link href="/tabory" onClick={() => setPosition(!position)}>Tábory</Link>
-        <Link href="/tabory" onClick={() => setPosition(!position)}>Výlety</Link>
-        <Link href="/kontakt" onClick={() => setPosition(!position)}>Soukromé lekce</Link>
+        <Link href="/vylety" onClick={() => setPosition(!position)}>Výlety</Link>
+        <Link href="/soukromelekce" onClick={() => setPosition(!position)}>Soukromé lekce</Link>
         <Link href="/instruktori" onClick={() => setPosition(!position)}>Náš tým</Link>
         <Link href="/kontakt" onClick={() => setPosition(!position)}>Kontakt</Link>
         <Link href="/prihlaska" onClick={() => setPosition(!position)}>Přihláška</Link>

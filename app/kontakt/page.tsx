@@ -46,8 +46,8 @@ const SearchForm = () => {
                 className="mb-[15px] p-1 search-input border-1 rounded-lg "
                 
             />
-            <p>email: blabal</p>
-            <p>tel: wemvevo</p>
+            <p>ema.skornickova@seznam.cz</p>
+            <p>+420 770 149 332</p>
             </div>
             <div>
             <p>ZPRÁVA *</p>
