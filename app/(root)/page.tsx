@@ -2,7 +2,7 @@
 import React from 'react'
 import { Playpen_Sans } from 'next/font/google';
 import Link from 'next/link';
-import Image from 'next/image';
+
 
 // Load the Moirai One font
 const moiraiOne = Playpen_Sans({

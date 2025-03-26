@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Form from "next/form";
-import Image from 'next/image';
+
 import { Playpen_Sans } from 'next/font/google';
 
 const moiraiOne = Playpen_Sans({
