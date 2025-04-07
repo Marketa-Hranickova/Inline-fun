@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
 export async function POST(req: Request) {
-  const { name, email, message } = await req.json();
+  const { name, message } = await req.json();
 
   const transporter = nodemailer.createTransport({
     service: 'gmail',
@@ -23,6 +23,7 @@ export async function POST(req: Request) {
     await transporter.sendMail(mailOptions);
     return NextResponse.json({ message: 'Email sent' }, { status: 200 });
   } catch (error) {
+    console.error('Email sending failed:', error);
     return NextResponse.json({ message: 'Error sending email' }, { status: 500 });
   }
 }
