@@ -4,6 +4,8 @@ import { Playpen_Sans } from 'next/font/google';
 import Link from 'next/link';
 
 
+
+
 // Load the Moirai One font
 const moiraiOne = Playpen_Sans({
   weight: '800', // Moirai One only has a single weight
@@ -14,14 +16,12 @@ const moiraiOne = Playpen_Sans({
 
 
 
-
-
-
 const page = () => {
 
   return (
     
     <>
+    
     {/* HERO */}
     <div className='flex flex-row h-screen overflow-y-scroll snap-y snap-mandatory snap-start px-[120px]'>
       

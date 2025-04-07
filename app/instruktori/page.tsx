@@ -8,15 +8,15 @@ const moiraiOne = Playpen_Sans({
 const Instruktori = () => {
   return (
     <div className='px-[120px]'>
-    <div className={` ${moiraiOne.className} rounded-3xl text-center flex flex-col justify-center text-4xl mt-[120px]`}> 
+    <div className={` ${moiraiOne.className} rounded-3xl text-center text-white flex flex-col justify-center text-4xl mt-[120px]`}> 
           <h1>NÁŠ TÝM</h1>
         </div>
-    <p className='text-center text-xl mt-[30px] mb-[120px]'>To jsme my, parta mladých lidí, kterou společně pojí přátelství a láska k bruslení.</p>
+    <p className='text-center text-xl mt-[30px] text-white mb-[120px]'>To jsme my, parta mladých lidí, kterou společně pojí přátelství a láska k bruslení.</p>
 
-    <div className='flex flex-row justify-between mt-[60px] h-[50vh]'>
+    <div className='flex flex-row justify-between mt-[60px]  h-[50vh]'>
         <div className='flex flex-col justify-center text-center'>
        
-          <h1 className={` ${moiraiOne.className} text-center text-4xl mb-[15px]`}>EMČA</h1>
+          <h1 className={` ${moiraiOne.className} text-center text-white text-4xl mb-[15px]`}>EMČA</h1>
        
             <p className='w-[35vw]'>Mé jméno je Ema Škorničková, jsem studentkou  pedagogické školy a úspěšnou absolventkou kurzu in-line bruslení pro  pedagogické pracovníky. Bruslení mě naplňuje a věnuji se mu již od svých  6 let. Ráda bych své nadšení z tohoto sportu předávala nadále a pomohla  dětem vybudovat pozitivní vztah k pohybu obecně. Ve volném čase se  věnuji i různým výtvarným aktivitám, 10 let jsem se věnovala scénickému  tanci a ráda cestuji. S tím se zároveň pojí má dobrodružná duše, mám  ráda výzvy a do každé jdu na 100 %.</p>
         </div>
